@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import BrewAdvisor from "./components/BrewAdvisor";
 import CartDrawer, { type CartLine, type CartStep } from "./components/CartDrawer";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -173,6 +174,8 @@ export default function App() {
       </main>
 
       <Footer />
+
+      <BrewAdvisor />
 
       <ProductModal
         product={selected}
