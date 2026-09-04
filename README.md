@@ -20,6 +20,15 @@ npm run dev
 
 ### 1. Publier sur GitHub
 
+**Option sans terminal (la plus simple) :**
+
+1. Sur github.com, cliquer **+ → New repository**, nommer (ex. `cinder-roasters`) puis **Create repository**.
+2. Sur la page du dépôt, cliquer **uploading an existing file**.
+3. Glisser les fichiers du projet (**sans** le dossier `node_modules`, et **jamais** de fichier `.env`).
+4. Cliquer **Commit changes**.
+
+**Option terminal :**
+
 Créer un dépôt vide sur github.com, puis dans le dossier du projet :
 
 ```bash
